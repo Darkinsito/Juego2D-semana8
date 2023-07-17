@@ -2090,7 +2090,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: ffb159a21c8a04135a5616979c828fab, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 29bde6326b4c34ad8a12da475f79b50a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -5880,7 +5880,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 8, y: 11, z: 0}
+  - first: {x: 7, y: 11, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 12
@@ -5890,7 +5890,7 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
-  - first: {x: 9, y: 11, z: 0}
+  - first: {x: 8, y: 11, z: 0}
     second:
       serializedVersion: 2
       m_TileIndex: 13
@@ -7371,21 +7371,21 @@ CompositeCollider2D:
         Y: 50000000
       - X: 270000000
         Y: 50000000
-    - - X: 100000100
+    - - X: 90000100
         Y: 109999959
-      - X: 100000100
+      - X: 90000100
         Y: 120000041
-      - X: 100000041
+      - X: 90000041
         Y: 120000100
-      - X: 79999959
+      - X: 69999959
         Y: 120000100
-      - X: 79999900
+      - X: 69999900
         Y: 120000041
-      - X: 79999900
+      - X: 69999900
         Y: 109999959
-      - X: 79999959
+      - X: 69999959
         Y: 109999900
-      - X: 100000041
+      - X: 90000041
         Y: 109999900
     - - X: -40624943
         Y: 105624915
@@ -7597,6 +7597,22 @@ CompositeCollider2D:
         Y: 75625000
       - X: 490000000
         Y: 75625000
+    - - X: 100000100
+        Y: 59999959
+      - X: 100000100
+        Y: 70000041
+      - X: 100000041
+        Y: 70000100
+      - X: 79999959
+        Y: 70000100
+      - X: 79999900
+        Y: 70000041
+      - X: 79999900
+        Y: 59999959
+      - X: 79999959
+        Y: 59999900
+      - X: 100000041
+        Y: 59999900
     - - X: 230000100
         Y: 59999959
       - X: 230000100
@@ -7644,22 +7660,6 @@ CompositeCollider2D:
       - X: 159999959
         Y: 59999900
       - X: 180000041
-        Y: 59999900
-    - - X: 100000100
-        Y: 59999959
-      - X: 100000100
-        Y: 70000041
-      - X: 100000041
-        Y: 70000100
-      - X: 79999959
-        Y: 70000100
-      - X: 79999900
-        Y: 70000041
-      - X: 79999900
-        Y: 59999959
-      - X: 79999959
-        Y: 59999900
-      - X: 100000041
         Y: 59999900
     - - X: 580000000
         Y: 56250000
@@ -8156,10 +8156,10 @@ CompositeCollider2D:
       - {x: 30.00001, y: 12.000026}
       - {x: 29.99998, y: 13.00001}
       - {x: 28.99999, y: 12.999974}
-    - - {x: 9.999974, y: 10.99999}
-      - {x: 9.999974, y: 12.00001}
-      - {x: 7.9999905, y: 11.999974}
-      - {x: 8.000026, y: 10.99999}
+    - - {x: 8.999974, y: 10.99999}
+      - {x: 8.999974, y: 12.00001}
+      - {x: 6.9999905, y: 11.999974}
+      - {x: 7.0000257, y: 10.99999}
     - - {x: 27.99999, y: 11.000019}
       - {x: 29.00001, y: 11.000026}
       - {x: 28.99998, y: 12.00001}
@@ -9030,10 +9030,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Cherries: 0'
+  m_text: 'Apples: 0'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 7df48923ba0abc9438ea622a357512c5, type: 2}
-  m_sharedMaterial: {fileID: -8195265690746205829, guid: 7df48923ba0abc9438ea622a357512c5, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -76425,7 +76425,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3839852810013079148, guid: d3d1e82a0995f4b4ea845c476b5dda26, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 6.02
+      value: 5.04
       objectReference: {fileID: 0}
     - target: {fileID: 3839852810013079148, guid: d3d1e82a0995f4b4ea845c476b5dda26, type: 3}
       propertyPath: m_LocalPosition.y
@@ -76483,11 +76483,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878874860240571525, guid: 9a3818c78b3ebb944b2c304b67b022cc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.16
+      value: 8.33
       objectReference: {fileID: 0}
     - target: {fileID: 7878874860240571525, guid: 9a3818c78b3ebb944b2c304b67b022cc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 17.14
+      value: 16.51
       objectReference: {fileID: 0}
     - target: {fileID: 7878874860240571525, guid: 9a3818c78b3ebb944b2c304b67b022cc, type: 3}
       propertyPath: m_LocalPosition.z
@@ -77406,7 +77406,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3831365938987607941, guid: a581ee0a2fabbce4ca79fdaeef67dbf7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 6.57
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3831365938987607941, guid: a581ee0a2fabbce4ca79fdaeef67dbf7, type: 3}
       propertyPath: m_LocalPosition.z
